@@ -1,0 +1,38 @@
+.reservation{
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reservation h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.reservation p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.reservation .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation .button button{
+    display: inline;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}

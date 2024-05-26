@@ -1,0 +1,271 @@
+* {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+}
+
+#login {
+  margin-top: 100px;
+}
+
+#login input,
+#login textarea,
+#login select,
+#login button {
+  color: #333;
+  font-size: 13px;
+}
+
+#login p,
+#login h1,
+#login h2,
+#login h3,
+#login h4,
+#login h5,
+#login h6,
+#login ul {
+  margin: 0;
+}
+
+#login img {
+  max-width: 100%;
+}
+
+#login ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+#login a:hover {
+  text-decoration: none;
+}
+
+:focus {
+  outline: none;
+}
+
+#login .wrapper {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+#login .inner {
+  padding: 20px;
+  background: #fff;
+  max-width: 850px;
+  margin: auto;
+  display: flex;
+}
+#login .inner .image-holder {
+  width: 50%;
+}
+#login .inner form {
+  width: 50%;
+  padding-top: 36px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+#login .inner h3 {
+  text-transform: uppercase;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#login .form-group {
+  display: flex;
+}
+#login .form-group input {
+  width: 50%;
+}
+#login .form-group input:first-child {
+  margin-right: 25px;
+}
+
+#login .form-wrapper {
+  position: relative;
+}
+#login .form-wrapper i {
+  position: absolute;
+  bottom: 9px;
+  right: 0;
+}
+
+#login .form-control {
+  border: 1px solid #333;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 0;
+  margin-bottom: 25px;
+  padding: 20px;
+}
+#login .form-control::-webkit-input-placeholder {
+  font-size: 15px;
+  color: #333;
+}
+#login .form-control::-moz-placeholder {
+  font-size: 15px;
+  color: #333;
+}
+#login .form-control:-ms-input-placeholder {
+  font-size: 15px;
+  color: #333;
+}
+#login .form-control:-moz-placeholder {
+  font-size: 15px;
+  color: #333;
+  font-family: "Poppins-Regular";
+}
+
+#login select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  padding-left: 20px;
+}
+#login select option[value=""][disabled] {
+  display: none;
+}
+
+#login button {
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+#login button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(240, 11%, 2%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(2, 2, 3) 0px 7px 29px 0px;
+}
+
+#login button:active {
+  letter-spacing: 3px;
+  background-color: hsl(257, 14%, 10%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(6, 6, 6) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+#login .Click{
+  padding-top: 20px !important;
+}
+
+#login .navClick{
+ 
+  text-decoration: none !important; 
+  color: black !important;
+   
+}
+
+#login .navClick:hover{
+  color: #83472da4 !important;
+}
+
+@-webkit-keyframes hvr-icon-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes hvr-icon-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@media (max-width: 1199px) {
+  #login {
+    margin-top: 150px;
+  }
+  #login .wrapper {
+    background-position: right center;
+  }
+}
+@media (max-width: 991px) {
+  #login .inner form {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 767px) {
+  #login .inner {
+    display: block;
+  }
+  #login .inner .image-holder {
+    width: 100%;
+  }
+  #login .inner form {
+    width: 100%;
+    padding: 40px 0 30px;
+  }
+
+  #login button {
+    margin-top: 60px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
